@@ -26,6 +26,37 @@ This repository contains code and resources for a project focused on improving c
 - Speaker diarization achieves an accuracy of 76.2% through manual annotation.
 - The deep neural network model aims to further improve emotion classification accuracy.
 
+**Listen to Speaker Diarization results:**
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_00.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_01.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_02.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_03.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_04.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_05.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_06.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
 **Potential Applications:**
 - This research holds significant potential in various applications, including:
   - Call center performance enhancement.
@@ -33,5 +64,4 @@ This repository contains code and resources for a project focused on improving c
   - Agent training and feedback.
 - Emotion analysis can enable call centers to promptly identify and address customer issues, leading to an improved customer experience and increased customer loyalty.
 
-**License:**
-- Specify the license you are using for the code and resources in your repository (e.g., MIT License).
+
