@@ -12,15 +12,17 @@ This repository contains code and resources for a project focused on improving c
 - **Audio Denoising:** The project begins with audio denoising to improve the quality of the audio data. An autoencoder is employed for this purpose.
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/Autoencoder.png?raw=true)
 - **Speaker Diarization:** Speaker diarization involves a sequential process of segmentation, feature extraction, and spectral clustering to distinguish between different speakers in the conversation.
+![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/SPD.png?raw=true)
 - - **Segmentation Process:**
 
-- - **Voice Activity Detection (VAD):** VAD is a critical component of the segmentation process. It involves detecting periods of speech (voice activity) in the audio and distinguishing them from non-speech segments. In this project, we utilize Google's webrtcvad library for VAD detection.
+  - **Voice Activity Detection (VAD):** VAD is a critical component of the segmentation process. It involves detecting periods of speech (voice activity) in the audio and distinguishing them from non-speech segments. In this project, we utilize Google's webrtcvad library for VAD detection.
 
-- - **Features:** Perceptual Linear Predictive (PLP) coefficients are used as the primary features for VAD. These coefficients are derived from the audio signal and are particularly well-suited for capturing human speech characteristics.
+  - **Features:** Perceptual Linear Predictive (PLP) coefficients are used as the primary features for VAD. These coefficients are derived from the audio signal and are particularly well-suited for capturing human speech characteristics.
 
-- - **Segmentation Criteria:** The segmentation process begins whenever there is a pause or silence in the audio. VAD is employed to identify these pauses, helping to define the boundaries between distinct audio segments.
-
+  - **Segmentation Criteria:** The segmentation process begins whenever there is a pause or silence in the audio. VAD is employed to identify these pauses, helping to define the boundaries between distinct audio segments.
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/SPD.png?raw=true)
+
+
 
 **Emotion Classification:**
 - Traditional machine learning algorithms like Support Vector Machines (SVM), Gaussian Mixture Models (GMM), and Hidden Markov Models (HMM) are commonly used for emotion classification. However, this project takes a deep learning approach to enhance classification accuracy and robustness.
