@@ -10,6 +10,7 @@ This repository contains code and resources for a project focused on improving c
 
 **Data Preprocessing:**
 - **Audio Denoising:** The project begins with audio denoising to improve the quality of the audio data. An autoencoder is employed for this purpose.
+![Overview]()
 - **Speaker Diarization:** Speaker diarization involves a sequential process of segmentation, feature extraction, and spectral clustering to distinguish between different speakers in the conversation.
 
 **Emotion Classification:**
