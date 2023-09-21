@@ -4,8 +4,6 @@ Overview:
 
 This repository contains code and resources for a project focused on improving customer service quality and agent performance in call centers through emotion analysis. The primary objective is to detect and understand the underlying emotions of both customers and call center agents using deep neural networks.
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/Overview.png?raw=true)
-<img src="https://github.com/yourusername/emotion-analysis-call-center/blob/main/images/audio_denoising.png" alt="Audio Denoising" width="400" height="300">
-
 
 Project Description:
 
