@@ -63,9 +63,11 @@ This repository contains code and resources for a project focused on improving c
 **Results:**
 - Audio denoising using an autoencoder results in an average Signal to Noise Ratio (SNR) of 6.69 dB, with a maximum SNR of 9 dB and a minimum SNR of 4.73 dB.
 - Speaker diarization achieves an accuracy of 76.2% through manual annotation.
+![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/Accuracy table.png?raw=true)
 - The deep neural network model aims to further improve emotion classification accuracy.
 
 **Listen to Speaker Diarization results:**
+
 https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/d50b2df6-15a7-455c-befe-f383ea8af573
 
 https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/31ab46fd-a02b-406b-b91e-c02251cf6abd
