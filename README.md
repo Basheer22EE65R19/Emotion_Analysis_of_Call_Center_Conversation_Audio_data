@@ -1,8 +1,8 @@
-Emotion Analysis in Call Center Conversations
+Emotion Analysis in Call Center Conversation Audio data
 
 Overview:
 
-This repository contains code and resources for a project focused on improving customer service quality and agent performance in call centers through emotion analysis. The primary objective is to detect and understand the underlying emotions of both customers and call center agents using deep neural networks.
+This repository contains code and resources for a project focused on improving customer service quality and agent performance in call centers through emotion analysis. The primary objective is to detect and understand the underlying emotions of both customers and call center agents using deep neural networks. The entire overview of my project is shown below
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/Overview.png?raw=true)
 
 Project Description:
