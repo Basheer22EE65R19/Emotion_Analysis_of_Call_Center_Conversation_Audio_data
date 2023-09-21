@@ -27,14 +27,10 @@ This repository contains code and resources for a project focused on improving c
 - The deep neural network model aims to further improve emotion classification accuracy.
 
 **Listen to Speaker Diarization results:**
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/46dbf507-4587-446c-8df0-cdcd121f6c7d
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/755e9ef9-3a38-44c1-96cc-91cb2573dfbe
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/088a63e0-cdef-4c28-b4f3-1a8ffaa47f12
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/01e603af-5c02-477a-991b-351832313d8e
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/bddf7b79-a9f8-48b6-93e0-38075e39f3ff
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/d3ef5558-358e-4f50-8234-12edba011d28
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/695a6817-8381-48fa-8b05-d6122b30abde
-https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/f4840b40-e208-4291-86f8-587558dfa741
+<audio controls>
+  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/raw/main/Speaker_Diarization_Results/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_00.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 
 **Potential Applications:**
