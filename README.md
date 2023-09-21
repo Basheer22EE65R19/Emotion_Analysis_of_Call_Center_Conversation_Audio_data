@@ -20,8 +20,27 @@ This repository contains code and resources for a project focused on improving c
   - **Features:** Perceptual Linear Predictive (PLP) coefficients are used as the primary features for VAD. These coefficients are derived from the audio signal and are particularly well-suited for capturing human speech characteristics.
 
   - **Segmentation Criteria:** The segmentation process begins whenever there is a pause or silence in the audio. VAD is employed to identify these pauses, helping to define the boundaries between distinct audio segments.
-![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/SPD.png?raw=true)
+![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/Segmentation_audio.png?raw=true)
 
+- - **Feature Extraction:**
+  - After segmenting the audio files, feature extraction is performed on the segmented chunks.
+  - Acoustic features such as MFCCs, their first-order derivatives, and second-order derivatives are used as features.
+  - The dimension of the feature vector for each frame is xi ∈ R^39×1.
+
+    **Universal Background Model (UBM):**
+
+  - To convert MFCCs into a super vector, a Universal Background Model (UBM) is employed.
+  - The UBM is a Gaussian Mixture Model (GMM) trained on extensive audio data. It is speaker-independent and represents features that are not dependent on the speaker.
+  - The UBM is trained using the Expectation Maximization (EM) algorithm.
+  - Each chunk uses 16 Gaussian mixtures. The UBM includes a weight vector π ∈ R^16×1, means matrix µ ∈ R^16×39, and covariance matrices Σ ∈ R^39×39 for each mixture component.
+
+    **Adaptation from Universal Background Model (UBM):**
+
+  - Given the UBM, it is adapted to each audio chunk. This adaptation is typically done using a Gaussian Mixture Model (GMM) that models the distribution of the         audio chunk's MFCC features.
+  - The GMM adaptation is performed using Maximum a Posteriori (MAP) adaptation by adjusting the means of the UBM's Gaussian components.
+  - The means from the UBM serve as initial values for the means of individual GMMs (chunks) and are updated at every iteration using the EM algorithm.
+![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/UBM_for_audio.png?raw=true)
+![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/GMM_for_chunk.png?raw=true)
 
 
 **Emotion Classification:**
