@@ -80,6 +80,59 @@ https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation
 
 https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/43f4def9-95e2-420b-8662-b5e4e60cf308
 
+**Listen to Speaker Diarization Results:**
+
+You can listen to the speaker diarization results by clicking the play button:
+
+<figure>
+  <figcaption>Audio 1</figcaption>
+  <audio controls>
+    <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/d50b2df6-15a7-455c-befe-f383ea8af573" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+<figure>
+  <figcaption>Audio 2</figcaption>
+  <audio controls>
+    <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/31ab46fd-a02b-406b-b91e-c02251cf6abd" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+<figure>
+  <figcaption>Audio 3</figcaption>
+  <audio controls>
+    <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/ad8ae450-bec9-409f-a22c-de9d3772ee71" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+<figure>
+  <figcaption>Audio 4</figcaption>
+  <audio controls>
+    <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/ce45021a-f45a-4d79-889a-b7aac4dbf26a" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+<figure>
+  <figcaption>Audio 5</figcaption>
+  <audio controls>
+    <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/14e03663-5106-49bc-a3bf-db04b40f1f43" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+<figure>
+  <figcaption>Audio 6</figcaption>
+  <audio controls>
+    <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/43f4def9-95e2-420b-8662-b5e4e60cf308" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+
 
 **Potential Applications:**
 - This research holds significant potential in various applications, including:
