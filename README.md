@@ -12,6 +12,14 @@ This repository contains code and resources for a project focused on improving c
 - **Audio Denoising:** The project begins with audio denoising to improve the quality of the audio data. An autoencoder is employed for this purpose.
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/Autoencoder.png?raw=true)
 - **Speaker Diarization:** Speaker diarization involves a sequential process of segmentation, feature extraction, and spectral clustering to distinguish between different speakers in the conversation.
+- - **Segmentation Process:**
+
+- - **Voice Activity Detection (VAD):** VAD is a critical component of the segmentation process. It involves detecting periods of speech (voice activity) in the audio and distinguishing them from non-speech segments. In this project, we utilize Google's webrtcvad library for VAD detection.
+
+- - **Features:** Perceptual Linear Predictive (PLP) coefficients are used as the primary features for VAD. These coefficients are derived from the audio signal and are particularly well-suited for capturing human speech characteristics.
+
+- - **Segmentation Criteria:** The segmentation process begins whenever there is a pause or silence in the audio. VAD is employed to identify these pauses, helping to define the boundaries between distinct audio segments.
+
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/SPD.png?raw=true)
 
 **Emotion Classification:**
@@ -28,6 +36,27 @@ This repository contains code and resources for a project focused on improving c
 
 **Listen to Speaker Diarization results:**
 
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/d50b2df6-15a7-455c-befe-f383ea8af573
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/31ab46fd-a02b-406b-b91e-c02251cf6abd
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/ad8ae450-bec9-409f-a22c-de9d3772ee71
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/ce45021a-f45a-4d79-889a-b7aac4dbf26a
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/14e03663-5106-49bc-a3bf-db04b40f1f43
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/43f4def9-95e2-420b-8662-b5e4e60cf308
 
 
 **Potential Applications:**
