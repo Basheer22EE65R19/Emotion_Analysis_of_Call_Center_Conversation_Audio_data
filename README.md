@@ -13,6 +13,16 @@ This repository contains code and resources for a project focused on improving c
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/Autoencoder.png?raw=true)
 - **Speaker Diarization:** Speaker diarization involves a sequential process of segmentation, feature extraction, and spectral clustering to distinguish between different speakers in the conversation.
 ![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/SPD.png?raw=true)
+- - **Segmentation Process:**
+
+  - **Voice Activity Detection (VAD):** VAD is a critical component of the segmentation process. It involves detecting periods of speech (voice activity) in the audio and distinguishing them from non-speech segments. In this project, we utilize Google's webrtcvad library for VAD detection.
+
+  - **Features:** Perceptual Linear Predictive (PLP) coefficients are used as the primary features for VAD. These coefficients are derived from the audio signal and are particularly well-suited for capturing human speech characteristics.
+
+  - **Segmentation Criteria:** The segmentation process begins whenever there is a pause or silence in the audio. VAD is employed to identify these pauses, helping to define the boundaries between distinct audio segments.
+![Overview](https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/blob/main/Images/SPD.png?raw=true)
+
+
 
 **Emotion Classification:**
 - Traditional machine learning algorithms like Support Vector Machines (SVM), Gaussian Mixture Models (GMM), and Hidden Markov Models (HMM) are commonly used for emotion classification. However, this project takes a deep learning approach to enhance classification accuracy and robustness.
@@ -27,9 +37,28 @@ This repository contains code and resources for a project focused on improving c
 - The deep neural network model aims to further improve emotion classification accuracy.
 
 **Listen to Speaker Diarization results:**
-<audio controls>
-  <source src="https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/raw/main/Speaker_Diarization_Results/compressed/FB_14_IENG_CC_BFSI_01_COMBINE_chunk_00.mp4" type="audio/mpeg">
-</audio>
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/d50b2df6-15a7-455c-befe-f383ea8af573
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/31ab46fd-a02b-406b-b91e-c02251cf6abd
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/ad8ae450-bec9-409f-a22c-de9d3772ee71
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/ce45021a-f45a-4d79-889a-b7aac4dbf26a
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/14e03663-5106-49bc-a3bf-db04b40f1f43
+
+
+
+https://github.com/Basheer22EE65R19/Emotion_Analysis_of_Call_Center_Conversation_Audio_data/assets/130117726/43f4def9-95e2-420b-8662-b5e4e60cf308
 
 
 **Potential Applications:**
